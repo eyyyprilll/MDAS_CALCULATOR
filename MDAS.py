@@ -15,4 +15,17 @@ def math_operation():
             print("Enter the second number: ")
             num2 = float(input())
 
+            # Perform the chosen operation
+            if operation == 'addition':
+                result = num1 + num2
+            elif operation == 'subtraction':
+                result = num1 - num2
+            elif operation == 'multiplication':
+                result = num1 * num2
+            elif operation == 'division':
+                if num2 == 0:
+                    print("Cannot divide by zero. Please try again.")
+                    continue
+                result = num1 / num2
+
 
