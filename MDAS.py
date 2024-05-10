@@ -47,5 +47,5 @@ def math_operation():
             else:
                 print("Invalid input. Please type 'yes' or 'no'.")
 
-# Call the function to start the program
+   # Call the function to start the program
 math_operation()
