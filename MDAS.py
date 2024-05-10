@@ -28,5 +28,24 @@ def math_operation():
                     continue
                 result = num1 / num2
 
+            # Display the result
+            print("The result is: ", result)
 
+        except ValueError:
+            print("Invalid input. Please enter a valid number.")
+            continue
 
+        # Ask if the user wants to try again
+        while True:
+            print("Do you want to try again? (yes/no): ")
+            try_again = input().strip().lower()
+            if try_again == "yes":
+                break
+            elif try_again == "no":
+                print("Exiting the calculator.")
+                return
+            else:
+                print("Invalid input. Please type 'yes' or 'no'.")
+
+# Call the function to start the program
+math_operation()
