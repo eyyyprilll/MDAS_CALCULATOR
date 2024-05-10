@@ -29,6 +29,6 @@ def math_operation():
                 result = num1 / num2
 
             # Display the result
-            print("The result is: ", result)
+                print("The result is: ", result)
 
 
