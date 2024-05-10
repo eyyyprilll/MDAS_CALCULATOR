@@ -27,7 +27,8 @@ def math_operation():
                     print("Cannot divide by zero. Please try again.")
                     continue
                 result = num1 / num2
-# Display the result
+
+            # Display the result
             print("The result is: ", result)
 
 
